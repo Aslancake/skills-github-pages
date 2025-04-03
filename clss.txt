@@ -1,0 +1,127 @@
+/* Estilos Generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f5f0; /* Fondo crema suave */
+  color: #6d4c41; /* Marrón cálido */
+}
+
+h2 {
+  color: #6d4c41;
+}
+
+/* Navegación */
+header nav {
+  background-color: #d9c2a5; /* Beige suave */
+  padding: 15px 0;
+}
+
+header .logo h1 {
+  font-size: 2rem;
+  color: #6d4c41;
+  font-family: 'Pacifico', cursive;
+}
+
+header nav ul li a {
+  color: #6d4c41;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #9e7a5b; /* Marrón cálido para hover */
+}
+
+/* Sección de Hero */
+.hero {
+  background-color: #f3e1d8; /* Rosa pastel suave */
+  color: #6d4c41;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #a8d8c1; /* Menta suave */
+  color: white;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.cta-button:hover {
+  background-color: #8cbb9f;
+}
+
+/* Menú */
+#menu {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.producto {
+  display: inline-block;
+  width: 30%;
+  margin: 15px;
+  text-align: center;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.producto h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+/* Sección de Contacto */
+#contacto {
+  padding: 40px 20px;
+  background-color: #f1f1f1;
+}
+
+#contacto form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contacto input, #contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #d9c2a5;
+}
+
+#contacto button {
+  background-color: #a8d8c1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#contacto button:hover {
+  background-color: #8cbb9f;
+}
+
+/* Pie de Página */
+footer {
+  background-color: #6d4c41;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .social-media a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+footer .social-media a:hover {
+  color: #a8d8c1;
+}
